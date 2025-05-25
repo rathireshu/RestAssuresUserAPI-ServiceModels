@@ -1,1 +1,10 @@
-/target/
+# Eclipse and Java
+.classpath
+.project
+.settings/
+
+# Maven
+target/
+
+# TestNG output
+test-output/
