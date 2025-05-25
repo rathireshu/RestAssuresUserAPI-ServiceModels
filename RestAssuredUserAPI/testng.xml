@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="UserAPI Suite">
+         <!-- Parallel execution at test method level from classes -->
+  <test thread-count="5" parallel ="tests" name="UserAPITest">
+    <classes>
+     <class name="apiTests.GetUserByIdTest"/> 
+      <class name="apiTests.CreateUserTest"/>    
+      <class name="apiTests.UsersServiceTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
